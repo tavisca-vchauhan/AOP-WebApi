@@ -1,0 +1,11 @@
+C:\Users\Vchauhan\source\repos\TicToeApi\bin\Debug\netcoreapp2.0\TicToeApi.deps.json
+C:\Users\Vchauhan\source\repos\TicToeApi\bin\Debug\netcoreapp2.0\TicToeApi.runtimeconfig.json
+C:\Users\Vchauhan\source\repos\TicToeApi\bin\Debug\netcoreapp2.0\TicToeApi.runtimeconfig.dev.json
+C:\Users\Vchauhan\source\repos\TicToeApi\bin\Debug\netcoreapp2.0\TicToeApi.dll
+C:\Users\Vchauhan\source\repos\TicToeApi\obj\Debug\netcoreapp2.0\TicToeApi.csprojAssemblyReference.cache
+C:\Users\Vchauhan\source\repos\TicToeApi\obj\Debug\netcoreapp2.0\TicToeApi.csproj.CoreCompileInputs.cache
+C:\Users\Vchauhan\source\repos\TicToeApi\obj\Debug\netcoreapp2.0\TicToeApi.AssemblyInfoInputs.cache
+C:\Users\Vchauhan\source\repos\TicToeApi\obj\Debug\netcoreapp2.0\TicToeApi.AssemblyInfo.cs
+C:\Users\Vchauhan\source\repos\TicToeApi\bin\Debug\netcoreapp2.0\TicToeApi.pdb
+C:\Users\Vchauhan\source\repos\TicToeApi\obj\Debug\netcoreapp2.0\TicToeApi.dll
+C:\Users\Vchauhan\source\repos\TicToeApi\obj\Debug\netcoreapp2.0\TicToeApi.pdb
