@@ -5,7 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TicToeApi.Attributes;
 using TicToeApi.DataAccess;
+using TicToeApi.Model;
 
 namespace TicToeApi.Controllers
 {
@@ -18,6 +20,7 @@ namespace TicToeApi.Controllers
         List<User> userList = new List<User>();
 
         [HttpPost]
+        [Log]
         public void  Register([FromBody]User user)
         {
             register.Register(user);
@@ -25,6 +28,7 @@ namespace TicToeApi.Controllers
 
 
         [HttpGet]
+        [Log]
         public List<User> Get()
         {
             userList=getAllUser.GetAll();

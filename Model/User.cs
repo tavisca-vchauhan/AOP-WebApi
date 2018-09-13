@@ -1,4 +1,4 @@
-﻿namespace TicToeApi
+﻿namespace TicToeApi.Model
 {
     public class User
     {
