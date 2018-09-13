@@ -19,10 +19,11 @@ namespace TicToeApi.Controllers
             return box;
         }
 
-        [HttpPost]
-        [Check]
+        [HttpPut]
+        [ValidToken]
         public void MakeAMove([FromBody]int id)
         {
+
             box[id-1] = id;
         }
 

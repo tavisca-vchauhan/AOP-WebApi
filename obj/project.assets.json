@@ -13251,7 +13251,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vchauhan\\.nuget\\packages\\": {},
+    "C:\\Users\\mmehndiratta\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13260,14 +13260,14 @@
       "projectUniqueName": "C:\\Users\\Vchauhan\\source\\repos\\TicToeApi\\TicToeApi.csproj",
       "projectName": "TicToeApi",
       "projectPath": "C:\\Users\\Vchauhan\\source\\repos\\TicToeApi\\TicToeApi.csproj",
-      "packagesPath": "C:\\Users\\Vchauhan\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\mmehndiratta\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Vchauhan\\source\\repos\\TicToeApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Vchauhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mmehndiratta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
