@@ -46,6 +46,7 @@ namespace TicToeApi.Attributes
             {
                 response = "Failure";
             }
+            exception = "-";
         }
     }
 }

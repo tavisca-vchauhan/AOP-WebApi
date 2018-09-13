@@ -51,8 +51,8 @@ namespace TicToeApi.Controllers
             if(box[id-1]!=0)
             {
                 LogAttribute.response = "Failue";
-                LogAttribute.exception = "Box Id is already given to other player. Please select another one !";
-                return "Box Id is already given to other player. Please select another one !";
+                LogAttribute.exception = "Box Id is already given. Please select another one !";
+                return "Box Id is already given. Please select another one !";
                 throw new Exception("Box Id is already given to other player !");
             }
             box[id-1] = (boxValue%2)+1;
