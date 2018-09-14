@@ -21,9 +21,9 @@ namespace TicToeApi.Controllers
 
         [HttpPost]
         [Log]
-        public void  Register([FromBody]User user)
+        public string  Register([FromBody]User user)
         {
-            register.Register(user);
+            return register.Register(user);
         }
 
 

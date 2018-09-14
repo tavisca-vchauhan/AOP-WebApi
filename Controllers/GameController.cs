@@ -41,12 +41,12 @@ namespace TicToeApi.Controllers
                 return "Game Is Already Over !";
                 throw new Exception("Game Is Already Over !");
             }
-            if(id>9 && id<0)
+            if(id>9 || id<0)
             {
                 LogAttribute.response = "Failue";
-                LogAttribute.exception = "Invalid Data !";
-                return "Invalid Data !";
-                throw new Exception("Invalid Data !");
+                LogAttribute.exception = "Invalid Box Id !";
+                return "Invalid Box Id !";
+                throw new Exception("Invalid Box Id !");
             }
             if(box[id-1]!=0)
             {
@@ -66,6 +66,7 @@ namespace TicToeApi.Controllers
             {
                 LogAttribute.response = "Failue";
                 LogAttribute.exception = "You Can't play two continous moves";
+                return "You Can't play two continous moves";
                 throw new UnauthorizedAccessException("You Can't play two continous moves");
             }
             if (ValidTokenAttribute.requestType.Equals("PUT"))
